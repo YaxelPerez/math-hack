@@ -6,7 +6,14 @@ class App extends React.Component {
   }
 
   render() {
-    return (<p>hello world</p>)
+    return (
+      <div>
+        <p>hello world</p>
+        <style jsx>{`
+          p { font-size: 20px; }
+        `}</style>
+      </div>
+    )
   }
 }
 
